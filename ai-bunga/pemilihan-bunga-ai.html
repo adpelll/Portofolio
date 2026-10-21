@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pemilihan Bunga AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="bunga-style.css">
+</head>
+<body>
+<div class="petals" id="petals" aria-hidden="true"></div>
+<div class="wrap">
+  <header>
+    <div id="logo"></div>
+    <div>
+      <h1>Pemilihan Bunga AI</h1>
+      <p>Pilih acara, penerima, dan suasana. AI memberi peringkat bunga yang paling cocok, lalu susun buketnya dan buat kartu ucapan.</p>
+    </div>
+  </header>
+
+  <div class="grid">
+    <aside class="card side" aria-label="Preferensi">
+      <div class="group"><b>Acara</b><div class="chips" data-k="o"></div></div>
+      <div class="group"><b>Untuk siapa</b><div class="chips" data-k="r"></div></div>
+      <div class="group"><b>Suasana</b><div class="chips" data-k="m"></div></div>
+      <div class="group"><b>Warna favorit</b><div class="chips" data-k="col"></div></div>
+      <div class="group"><b>Anggaran per tangkai</b><div class="chips" data-k="b"></div></div>
+      <div class="group"><b>Perawatan</b><div class="chips" data-k="k"></div></div>
+      <button class="btn ghost" id="reset">Atur ulang</button>
+    </aside>
+
+    <main>
+      <div class="insight" id="insight"></div>
+      <div class="list" id="list" aria-live="polite"></div>
+
+      <section class="card detail" id="detail" aria-label="Detail bunga"></section>
+
+      <section class="card bq" aria-label="Buket saya">
+        <h2 style="font-size:1.4rem">Buket saya</h2>
+        <div class="bq-items" id="bqItems"></div>
+        <div class="row">
+          <button class="btn" id="mk">Buat kartu ucapan</button>
+          <button class="btn ghost" id="cp">Salin ucapan</button>
+          <button class="btn ghost" id="clr">Kosongkan buket</button>
+        </div>
+        <div class="msg" id="msg"></div>
+      </section>
+    </main>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="bunga-script.js"></script>
+</body>
+</html>
