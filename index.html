@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aditya Permana — Portofolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a class="logo" href="#" aria-label="Ke atas"><img src="images/foto-profil.png" alt="Aditya Permana"></a><div class="links"><a href="#tentang">Tentang</a><a href="#proyek">Proyek</a><a href="#skill">Skill</a><a href="#publikasi">Publikasi</a><a href="#kontak">Kontak</a></div></nav>
+
+<section class="hero">
+  <div class="moon"></div><svg class="swords" viewBox="0 0 100 100" aria-hidden="true"><defs><g id="sw"><polygon points="50,2 55,14 55,62 45,62 45,14" class="bl"/><rect x="36" y="62" width="28" height="5" rx="2" class="hd"/><rect x="47" y="67" width="6" height="22" class="hd"/><circle cx="50" cy="92" r="3.5" class="hd"/></g></defs><use href="#sw" transform="rotate(45 50 50)"/><use href="#sw" transform="rotate(-45 50 50)"/></svg>
+  <div class="tag" id="tagline">Mode: Moon · Rapi, tenang, terstruktur</div>
+  <h1>ADITYA<br><span>PERMANA</span></h1>
+  <p class="role">Software Developer · IT Support · Java, MySQL &amp; Web</p>
+  <div class="switch" role="group" aria-label="Pilih mode">
+    <button id="bm" class="on">🌙 Moon</button>
+    <button id="bd">⚔️ Merc</button>
+  </div>
+  <div><a class="btn" href="#proyek">Lihat Proyek</a><a class="btn o" href="#kontak">Hubungi Saya</a></div>
+</section>
+
+<section id="tentang">
+  <h2>Tentang</h2>
+  <p class="sub">Dua kepribadian, satu hasil kerja.</p>
+  <div class="grid">
+    <div class="card"><div class="tag">🌙 Sisi Moon</div><h3>Analitis &amp; disiplin</h3><p style="color:var(--mute);margin:8px 0 0">Lulusan S1 Teknik Informatika Universitas Indraprasta PGRI (2022–2026). Terbiasa menganalisis kebutuhan, memodelkan sistem dengan UML, dan menyusun dokumentasi teknis yang teliti.</p></div>
+    <div class="card"><div class="tag">⚔️ Sisi Merc</div><h3>Cepat adaptasi &amp; kreatif</h3><p style="color:var(--mute);margin:8px 0 0">Berani mencoba hal baru, mengerjakan aplikasi dari nol secara mandiri, dan memecahkan masalah sistem sampai aplikasi benar-benar berjalan dengan baik.</p></div>
+  </div>
+</section>
+
+<section id="proyek">
+  <h2>Proyek</h2>
+  <p class="sub">Misi yang sudah diselesaikan.</p>
+  <div class="grid">
+    <div class="card"><div class="slider" data-gallery="skripsi"><img src="images/skripsi-1-login.png" alt=""><button class="nav prev" aria-label="Sebelumnya">&#8249;</button><button class="nav next" aria-label="Berikutnya">&#8250;</button><div class="cap"></div></div><div class="tag">Skripsi · Apr–Agu 2026</div><h3>Sistem Informasi Pemilihan Siswa Berprestasi</h3>
+      <ul><li>Aplikasi desktop Java (NetBeans) untuk seleksi siswa berprestasi di SDN Sukatani 02 Rajeg.</li><li>Dokumentasi UML: Use Case, Activity, Class Diagram.</li><li>Antarmuka Java Swing/AWT dan basis data MySQL untuk kriteria, bobot, dan data siswa.</li></ul>
+      <div class="chips"><b>Java</b><b>MySQL</b><b>UML</b></div></div>
+    <div class="card"><div class="slider portrait" data-gallery="laundry"><img src="images/laundry-1-login.png" alt=""><button class="nav prev" aria-label="Sebelumnya">&#8249;</button><button class="nav next" aria-label="Berikutnya">&#8250;</button><div class="cap"></div></div><div class="tag">Kerja Praktik · Sep–Des 2025</div><h3>Sistem Informasi Manajemen Citra Laundry</h3>
+      <ul><li>Dibangun mandiri: pencatatan transaksi, data pelanggan, status pemrosesan, dan cetak resi.</li><li>Integrasi MySQL dengan JDBC dan optimasi query.</li><li>Laporan harian, mingguan, bulanan otomatis.</li></ul>
+      <div class="chips"><b>Java</b><b>JDBC</b><b>MySQL</b></div></div>
+    <div class="card"><div class="slider" data-gallery="bunga"><img src="images/bunga-1-beranda.png" alt=""><button class="nav prev" aria-label="Sebelumnya">&#8249;</button><button class="nav next" aria-label="Berikutnya">&#8250;</button><div class="cap"></div></div><div class="tag">Web · Mar–Agu 2025</div><h3>Pemilihan Bunga AI</h3>
+      <ul><li>Aplikasi web interaktif dari nol dengan HTML, CSS, dan JavaScript murni.</li><li>Form responsif, validasi input, dan manipulasi DOM real-time.</li><li>Repositori rapi di Git &amp; GitHub.</li></ul>
+      <div class="chips"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>Git</b></div><p style="margin:16px 0 0"><a class="btn" href="ai-bunga/pemilihan-bunga-ai.html" target="_blank" rel="noopener">Coba Demo &rarr;</a></p></div>
+  </div>
+</section>
+
+<section id="skill">
+  <h2>Kompetensi</h2>
+  <p class="sub">Senjata yang dibawa.</p>
+  <div class="sk"><h4>Bahasa &amp; IDE</h4><div class="chips"><b>Java</b><b>JavaScript</b><b>PHP</b><b>HTML</b><b>CSS</b><b>Python</b><b>NetBeans</b><b>VS Code</b></div></div>
+  <div class="sk"><h4>Basis Data &amp; Tools</h4><div class="chips"><b>MySQL</b><b>Git &amp; GitHub</b></div></div>
+  <div class="sk"><h4>Desain &amp; UI/UX</h4><div class="chips"><b>Figma</b><b>Canva</b><b>Adobe XD</b></div></div>
+  <div class="sk"><h4>Produktivitas</h4><div class="chips"><b>Word</b><b>Excel</b><b>PowerPoint</b></div></div>
+  <div class="sk"><h4>Konsep &amp; Metodologi</h4><div class="chips"><b>UML</b><b>Systematic Literature Review</b></div></div>
+</section>
+
+<section id="publikasi">
+  <h2>Publikasi Ilmiah</h2>
+  <p class="sub">Riset dari sisi Moon.</p>
+  <div class="card"><div class="tag">TEKNOBIS · Vol. 3 No. 2, hlm. 348–354</div>
+    <h3>Pengaruh Etika Profesi Terhadap Keamanan Informasi dalam Konteks Kebocoran Data BSI: Studi Literatur Sistematis</h3>
+    <p style="color:var(--mute);margin:8px 0 0">Menganalisis peran kode etik profesi IT dalam memperkuat keamanan informasi dan mencegah kebocoran data sektor perbankan, memakai metode Systematic Literature Review.</p>
+    <p style="margin:12px 0 0"><a class="l" href="https://jurnalmahasiswa.com/index.php/teknobis/article/view/3103" target="_blank" rel="noopener">Baca jurnal →</a></p></div>
+</section>
+
+<section id="kontak">
+  <h2>Kontak</h2>
+  <p class="sub">Butuh developer? Tidak perlu ritual bulan purnama.</p>
+  <div class="card">
+    <p style="margin:0 0 6px">📧 <a class="l" href="mailto:aditiapermanaa9@gmail.com">aditiapermanaa9@gmail.com</a></p>
+    <p style="margin:0 0 6px">📱 <a class="l" href="tel:+628581994220">(+62) 858-1994-1220</a></p>
+    <p style="margin:0">📍 Jakarta, Indonesia</p>
+  </div>
+</section>
+
+<footer>© 2026 Aditya Permana · Tema fan-made terinspirasi dua antihero, tanpa logo atau aset resmi.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
